@@ -5,6 +5,8 @@
 - [x] static
 - [x] access modifiers
 - [x] Comparables, equals(), compareTo()
+- [x] Memory model
+- [ ] Memory usage of different types
 - [ ] toString()
 - [ ] Iterables and Iterators
 
