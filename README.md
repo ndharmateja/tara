@@ -63,7 +63,7 @@
 ### Binary Search Trees:
 - [ ] insert(), delete(), find()
 - [ ] Balanced BSTs
-- [ ] 2-3[ ]  Trees
+- [ ] 2-3 Trees
 - [ ] B Trees
 - [ ] Applications
 
