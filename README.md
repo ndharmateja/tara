@@ -7,7 +7,7 @@
 - [x] Comparables, equals(), compareTo()
 - [x] Memory model
 - [ ] Memory usage of different types
-- [ ] toString()
+- [x] toString()
 - [ ] Iterables and Iterators
 
 ### Arrays & Linked Lists
@@ -19,7 +19,7 @@
 ### Essential Math Concepts
 - [x] Induction
 - [x] Recursion
-- [ ] Propositional Logic
+- [x] Propositional Logic
 - [ ] Sums and sequences
 - [ ] Converting between bases & hexadecimal
 - [ ] Two's complement representation
