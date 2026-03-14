@@ -8,10 +8,11 @@
 - [x] Memory model
 - [ ] Memory usage of different types
 - [x] toString()
+- [x] Tail recursion
 - [ ] Iterables and Iterators
 
 ### Arrays & Linked Lists
-- [ ] Fixed Arrays
+- [x] Fixed Arrays
 - [ ] Singly Linked Lists
 - [ ] Doubly Linked Lists
 - [ ] Dynamic Arrays
@@ -23,10 +24,12 @@
 - [ ] Sums and sequences
 - [ ] Converting between bases & hexadecimal
 - [ ] Two's complement representation
+- [ ] Probability
 
 ### Algorithm Analysis:
 - [ ] Motivation
 - [ ] Big O, Big Omega, Big Theta
+- [x] Space complexity
 - [ ] Tilde notation
 - [ ] Recurrences & Master Theorem
 
@@ -36,17 +39,13 @@
 - [ ] Deque
 - [ ] Applications
 
-### Disjoint Sets
-- [ ] Quick find
-- [ ] Quick union
-- [ ] Weighted quick union
-- [ ] Weighted quick union with path compression
-
 ### Sorting
 - [ ] Elementary sorts
+- [ ] Inversions and partially-sorted arrays
 - [ ] Stability
 - [ ] Shuffling
 - [ ] Merge Sort
+- [ ] Count inversions using Merge Sort
 - [ ] Quick Sort
 - [ ] 3way Quick Sort
 - [ ] Radix sorts
@@ -59,6 +58,13 @@
 - [ ] Binary Min Heap and Max Heap
 - [ ] Build heap
 - [ ] Heap Sort
+- [ ] Partial sorting
+
+### Disjoint Sets
+- [ ] Quick find
+- [ ] Quick union
+- [ ] Weighted quick union
+- [ ] Weighted quick union with path compression
 
 ### Binary Search Trees:
 - [ ] insert(), delete(), find()
@@ -75,12 +81,14 @@
 ### Graphs
 - [ ] Undirected and Directed Graphs
 - [ ] DFS, BFS
+- [ ] DAGs and Topological Sort
 - [ ] Minimum Spanning Trees
   - [ ] Prim's
   - [ ] Kruskal's
+- [ ] Strongly connected components
 - [ ] Shortest paths
-  - [ ] Dijkstra's
   - [ ] Shortest Paths in DAGs
+  - [ ] Dijkstra's
   - [ ] Bellman Ford
   - [ ] All pairs shortest paths
 
