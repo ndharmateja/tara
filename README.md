@@ -10,6 +10,7 @@
 - [x] toString()
 - [x] Tail recursion
 - [ ] Iterables and Iterators
+- [ ] Inheritance and Polymorphism
 
 ### Arrays & Linked Lists
 - [x] Fixed Arrays
@@ -31,7 +32,7 @@
 - [ ] Big O, Big Omega, Big Theta
 - [x] Space complexity
 - [ ] Tilde notation
-- [ ] Recurrences & Master Theorem
+- [ ] Recurrences & Master Theorem (visit after Merge Sort)
 
 ### Stacks & Queues
 - [ ] Stack using arrays and slls
@@ -41,6 +42,9 @@
 
 ### Sorting
 - [ ] Elementary sorts
+  - [ ] Selection Sort
+  - [ ] Insertion Sort
+  - [ ] Bubble Sort
 - [ ] Inversions and partially-sorted arrays
 - [ ] Stability
 - [ ] Shuffling
