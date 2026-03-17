@@ -1,0 +1,5 @@
+Delete Line:                        Cmd + Shift + K
+Move Line Up/Down:                  Option + Up/Down
+Copy & Move Line Up/Down:           Option + Shift + Up/Down
+Create a new line after curr line:  Cmd + Enter
+Create a new line before curr line: Cmd + Shift + Enter
