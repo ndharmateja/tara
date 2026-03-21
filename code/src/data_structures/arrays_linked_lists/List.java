@@ -58,6 +58,10 @@ public interface List<T> {
      */
     public T get(int index);
 
+    public T getFirst();
+
+    public T getLast();
+
     /**
      * Sets the element at the specified index in the list.
      * 
