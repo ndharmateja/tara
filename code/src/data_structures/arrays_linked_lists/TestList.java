@@ -6,7 +6,7 @@ public class TestList {
     static int passedTests = 0;
 
     public static void main(String[] args) {
-        List<Integer> list = new Array<>(); // change to your implementation
+        List<Integer> list = new DoublyLinkedList<>(); // change to your implementation
 
         testAddLast(list);
         testAddFirst(list);

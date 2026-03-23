@@ -91,6 +91,20 @@ public class Array<T> implements List<T> {
     }
 
     @Override
+    public T getFirst() {
+        if (size == 0)
+            throw new IllegalStateException("Empty list.");
+        return array[0];
+    }
+
+    @Override
+    public T getLast() {
+        if (size == 0)
+            throw new IllegalStateException("Empty list.");
+        return array[size - 1];
+    }
+
+    @Override
     public void set(int index, T value) {
         // Valid indices are [0, size-1]
         if (index < 0 || index > size - 1)
