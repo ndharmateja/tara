@@ -14,8 +14,8 @@
 
 ### Arrays & Linked Lists
 - [x] Fixed Arrays
-- [ ] Singly Linked Lists
-- [ ] Doubly Linked Lists
+- [x] Singly Linked Lists
+- [x] Doubly Linked Lists
 - [ ] Dynamic Arrays
 
 ### Essential Math Concepts
