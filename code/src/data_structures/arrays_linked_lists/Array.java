@@ -143,6 +143,8 @@ public class Array<T> implements List<T> {
     }
 
     @Override
+    // {5, -11}
+    // {}
     public String toString() {
         if (size == 0) {
             return "{}";
