@@ -79,38 +79,45 @@ public class DynamicArray<T> implements List<T> {
 
     @Override
     public T get(int index) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'get'");
+        if (index < 0 || index > size - 1)
+            throw new IndexOutOfBoundsException("Invalid index.");
+        return array[index];
     }
 
     @Override
     public T getFirst() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getFirst'");
+        if (size == 0)
+            throw new IllegalStateException("Empty list.");
+        return array[0];
     }
 
     @Override
     public T getLast() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getLast'");
+        if (size == 0)
+            throw new IllegalStateException("Empty list.");
+        return array[size - 1];
     }
 
     @Override
     public void set(int index, T value) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'set'");
+        if (index < 0 || index > size - 1)
+            throw new IndexOutOfBoundsException("Invalid index.");
+        array[index] = value;
     }
 
     @Override
     public int indexOf(T value) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'indexOf'");
+        for (int i = 0; i <= size - 1; i++) {
+            if (value.equals(array[i])) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     @Override
     public boolean contains(T value) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'contains'");
+        return indexOf(value) != -1;
     }
 
     @Override
