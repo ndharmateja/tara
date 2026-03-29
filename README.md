@@ -16,7 +16,7 @@
 - [x] Fixed Arrays
 - [x] Singly Linked Lists
 - [x] Doubly Linked Lists
-- [ ] Dynamic Arrays
+- [X] Dynamic Arrays
 
 ### Essential Math Concepts
 - [x] Induction
